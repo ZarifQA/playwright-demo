@@ -10,4 +10,8 @@ test("Check element Text", async ({ page }) => {
     .textContent();
 
   expect(textSectionParagraph).toContain("sample text");
+
+  /// Welcome Git
+
+  // second git change
 });
